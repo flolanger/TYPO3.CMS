@@ -53,6 +53,8 @@ Migration
 
 Keep in mind that these methods expect an **array** instead of a string.
 
+For `AbstractFormFieldViewHelper::getValue` use `AbstractFormFieldViewHelper::getValueAttribute` instead.
+
 For `IconViewHelper` use `\TYPO3\CMS\Core\ViewHelpers\IconViewHelper` instead.
 
 .. index:: PHP-API, Fluid
